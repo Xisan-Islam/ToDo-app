@@ -38,7 +38,7 @@ const page = () => {
           <div className='flex justify-between items-center'>
             <h1 className=' text-4xl py-5 font-bold text-red-600 ml-8'>{task.title}</h1>
             <p className=' text-2xl py-7 italic ml-64'>{task.desc}</p>
-            <button key={i} onClick={() => {delt(i)}} className='text-2xl my-6 p-2 rounded font-bold text-white bg-orange-500 mr-8 hover:bg-orange-400'>Delete</button>
+            <button key={i} onClick={() => {delt(i)}} className='text-2xl my-6 p-2 rounded font-bold text-white bg-orange-600 mr-8 hover:bg-orange-400'>Delete</button>
           </div>
         </ul>
       )
