@@ -7,3 +7,31 @@
 .__variable_1e4310{
   background-image: linear-gradient(to right, rgb(105, 105, 105) , black);
 }
+/* Base styles */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .text-4xl {
+    font-size: 2xl;
+  }
+
+  .text-2xl {
+    font-size: xl;
+  }
+
+  .w-80 {
+    width: 90%;
+  }
+
+  .ml-64 {
+    margin-left: 0;
+  }
+
+  .mr-8 {
+    margin-right: 0;
+  }
+}
